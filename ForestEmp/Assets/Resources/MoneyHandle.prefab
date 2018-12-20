@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1314981156092354}
+  m_IsPrefabAsset: 1
+--- !u!1 &1314981156092354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4644365043483580}
+  - component: {fileID: 114032135554743900}
+  m_Layer: 0
+  m_Name: MoneyHandle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4644365043483580
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314981156092354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114032135554743900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1314981156092354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1b3c51d2388c5438101f0907a93aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gameover: {fileID: 0}
+  Player1Money: 0
+  Player2Money: 0
+  Player1Coins: {fileID: 0}
+  Player2Coins: {fileID: 0}
+  TavernOwners: 00000000000000000000000000000000
+  TavernRent: 00000000190000003200000064000000c8000000
+  HousePrice: 1e0000001e0000003200000032000000320000006400000064000000640000006400000064000000640000009600000096000000960000009600000096000000960000009600000096000000a0000000c8000000c8000000
+  PropertyOwners: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  PropertyLevels: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  PropertyPrice: 3c0000003c0000006400000064000000780000008c0000008c000000a0000000b4000000b4000000c8000000dc000000dc000000f00000000401000004010000180100002c0100002c010000400100005e01000090010000
